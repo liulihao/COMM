@@ -1,0 +1,32 @@
+<!DOCTYPE>
+  <html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>example</title>
+    <link rel="stylesheet" href="css/iThing.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <div id="rentslider"></div>
+    <div id="safetyslider"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="js/jQRangeSlider-min.js"></script>
+    <script>
+    $("#rentslider").rangeSlider({
+      arrows: false,
+      defaultValues:{min: 0, max: 10000},
+      bounds:{min: 0, max: 10000}
+    });
+    
+    $("#safetyslider").rangeSlider({
+      valueLabels: "hide",
+      arrows: false,
+      defaultValues:{min: 1, max: 1},
+      bounds:{min: 1, max: 6},
+	  range: {min: 1, max: 1},
+      step: 1
+    });
+    </script>
+  </body>
+</html>
