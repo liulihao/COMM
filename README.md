@@ -1,6 +1,5 @@
-![Alt text](data/vacantunits.png)
 
-## [Vacant Units for Rent in NYC](http://livenlulu.github.io/rentalvacancy/)
+## [Vacant Units for Rent in NYC]
 
 Features: Bootstrap, Leaflet, NVD3
 
